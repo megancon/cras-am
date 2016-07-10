@@ -1,0 +1,4 @@
+var specs = 
+	{"CRA_timeout" : 3000,
+	"sol_timeout" : 6000,
+	"iora_timeout" : 3000}
