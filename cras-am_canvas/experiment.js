@@ -185,7 +185,7 @@ function solution (){
    		if(e.keyCode === 13){
      		e.preventDefault();
      		var solutionTimerEnd = performance.now();
-     		totalSolutionTime = solutionTimerEnd - solutionTimer;
+     		var totalSolutionTime = solutionTimerEnd - solutionTimer;
      		totalSolutionTime = totalSolutionTime.toFixed(2);
      		response_log.push("Total Solution Time for Trial " + trialNum + " : " + totalSolutionTime);
      		document.body.removeChild(solutionPrompt);
@@ -208,7 +208,7 @@ function IorA (){
    		if(j.keyCode === 73 || 65){
      		j.preventDefault();
      		var iaTimerEnd = performance.now();
-     		iaTimerTotal = iaTimerEnd - iaTimer;
+     		var iaTimerTotal = iaTimerEnd - iaTimer;
      		iaTimerTotal = iaTimerTotal.toFixed(2);
      		response_log.push("Total IorA Time for Trial " + trialNum + " : " + iaTimerTotal);
      		console.log(response_log);

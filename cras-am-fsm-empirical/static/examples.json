@@ -1,0 +1,41 @@
+cra_practice = [
+    {
+        "firstWord":"practice1", 
+        "secondWord":"practice2", 
+        "thirdWord" : "practice3"
+    },
+    {
+        "firstWord":"practice1",
+        "secondWord":"practice2", 
+        "thirdWord" : "practice3"
+    },
+]
+
+
+cra_examples = [
+    {
+    	"firstWord":"pine", 
+    	"secondWord":"crab", 
+		"thirdWord" : "sauce"
+    },
+	{
+		"firstWord":"cane",
+    	"secondWord":"daddy", 
+    	"thirdWord" : "plum"
+    },
+    {
+    	"firstWord":"fox", 
+    	"secondWord":"man", 
+    	"thirdWord" : "peep"
+    },
+   	{
+    	"firstWord":"worm", 
+    	"secondWord":"shelf", 
+		"thirdWord" : "end"
+    },
+    {
+    	"firstWord":"puppy", 
+    	"secondWord":"true", 
+    	"thirdWord" : "letter"
+    }
+]

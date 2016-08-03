@@ -1,0 +1,16 @@
+
+#textbox {
+	position: absolute;
+    margin: 0 auto;
+    left: 280px;
+    top: 230px;
+}
+
+#text,
+#text2 {
+	font-family: 'Arial', sans-serif;
+	font-size: 20px; 
+	text-align: center; 
+	width: 600px;
+	margin-top: 10px;
+}
